@@ -2,7 +2,7 @@ apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
   name: gatekeeper-operatorgroup
-  namespace: gatekeeper-system
+  namespace: global-operators
 spec:
   targetNamespaces:
     - gatekeeper-system

@@ -5,4 +5,4 @@ metadata:
   namespace: gatekeeper-system
 spec:
   targetNamespaces:
-    - global-operators
+    - openshift-operators
